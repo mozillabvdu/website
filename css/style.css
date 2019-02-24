@@ -5,6 +5,9 @@
 
 
 /* GENERAL STYLING */
+html {
+  scroll-behavior: smooth;
+}
 
 ul {
 	list-style-type: none;
@@ -66,7 +69,7 @@ ul {
   header {
 	height: 62px;
 	width: 100%; /*940px*/
-	padding-top: 52px;
+	padding-top: 2px;
   }
   
   
@@ -144,7 +147,7 @@ ul {
   
   .hero button {
 	display: block;
-	margin: 40px auto 176px auto;
+	margin: 300px auto 80px auto;
 	padding: 16px 72px;
 	border: 1px solid #ffffff;
 	outline: none;
@@ -259,12 +262,13 @@ ul {
   
   /* #PRICING SECTION */
   
-  .pricing-container {
+  .event-container {
 	/*height: 750px; 850*/
 	width: 940px;
 	margin: 0 auto;
   }
   
+
   .price-block {
 	display: inline-block;
 	width: 32%;
@@ -997,7 +1001,7 @@ ul {
   @media screen and (max-width: 599px) {
 	.head {
 	  width: 100%;
-	  background-image: url("https://static.pexels.com/photos/5836/yellow-metal-design-decoration-large.jpg");
+	  background-image: url("https://images7.alphacoders.com/897/897098.jpg");
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	}
@@ -1076,7 +1080,7 @@ ul {
 	.portfolio-container,
 	.team-block-container,
 	.price-block,
-	.pricing-container,
+	.event-container,
 	.data-container   {
 	  width: 100%;
 	} 
@@ -1158,7 +1162,7 @@ ul {
   @media screen and (min-width: 600px) and (max-width: 950px) {
 	.head {
 	  width: 100%;
-	  background-image: url("https://static.pexels.com/photos/5836/yellow-metal-design-decoration-large.jpg");
+	  background-image: url("https://images7.alphacoders.com/897/897098.jpg");
 	  background-repeat: no-repeat;
 	  background-size: cover;
 	}
@@ -1205,7 +1209,7 @@ ul {
 	  margin-right: 25px;
 	}
   
-	.pricing-container,
+	.event-container,
 	.portfolio-container,
 	.team-block-container,
 	.data-container,
