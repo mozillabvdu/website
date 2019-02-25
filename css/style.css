@@ -1,10 +1,9 @@
-/*
-* Design by Blaz Robar: https://goo.gl/1aAmvV
-* Text by Alexandra K (ff0004-red), except default Lorem Ipsum :) 
-*/
-
-
-/* GENERAL STYLING */
+body,html{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -54,12 +53,13 @@ ul {
   /* #HEAD */
   
   .head {
-	height: 862px;
 	/*background-color: #fcdb00;*/
-	 background-image: url("https://images7.alphacoders.com/897/897098.jpg");
-	  background-repeat: no-repeat;
+	 background: url("https://images7.alphacoders.com/897/897098.jpg") no-repeat;
+	 width: 100%;
+	 height:100%;	
 	  background-size: cover;
-	  margin: 0px;
+	  background-attachment: fixed;
+	  overflow: hidden;
    }
   
   .head-container {
@@ -162,7 +162,7 @@ ul {
   
   .hero button {
 	display: block;
-	margin: 300px auto 80px auto;
+	margin: 300px auto 70px auto;
 	padding: 16px 72px;
 	border: 1px solid #ffffff;
 	outline: none;
@@ -204,76 +204,16 @@ ul {
   .services-container {
 		
 		background: url("E:/Mozilla/MOZILLA/logo/1.jpg");
-  background-position: center;
-  background-size: cover;
-	text-align: center;
-		height: 360px;
-		margin: 0 auto;
-
+  width: 100%;
+	 height:100%;	
+	 display: flex;
+	 justify-content: center;
+	  background-size: cover;
+	  background-attachment: fixed;
+	  overflow: hidden;
  }
 	
-  
-  .services-block {
-	width: 100%;
-  }
-  
-  .services-block-box {
-   display: inline-block;
-	/*width: 300px;*/
-	width: 32%;
-  }
-  
-  .marg-top {
-	margin-top: 72px;
-  }
-  
-  /*.marg-left {
-	margin-left: 20px;
-  }*/
-  
-  .services-block-box h3 {
-	display: inline-block;
-	margin: 0 0 15px 0;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 22px;
-	font-weight: 700;
-  }
-  
-  .services-block-box .fa {
-	display: block;
-	float: left;
-  }
-  
-  .services-block-box .fa-tablet,
-  .services-block-box .fa-lemon-o {
-	margin-right: 30px;
-  }
-  
-  .services-block-box .fa-folder-o  {
-	margin-right: 25px;
-  }
-  
-  .services-block-box .fa-code {
-	margin-right: 5px;
-  }
-  
-  .services-block-box .fa-envelope-o {
-	margin-right: 20px;
-  }
-  
-  .services-block-box .fa-bookmark-o {
-	margin-right: 25px;
-  }
-  
-  .services-block-box p {
-	display: inline-block;
-	margin: 0;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	color: #adadad;
-  }
-  
+ 
   
   /*--------------------------------------------*/
   
@@ -285,11 +225,11 @@ ul {
   
   .event-container {
 	background: url("E:/Mozilla/MOZILLA/logo/2.jpg");
-  background-position: center;
-  background-size: cover;
-	text-align: center;
-		height: 700px;
-		margin: 0 auto;
+   width: 100%;
+	 height:100%;	
+	  background-size: cover;
+	  background-attachment: fixed;
+	  overflow: hidden;
   }
   
 
@@ -395,11 +335,11 @@ ul {
   
   .portfolio-container {
 	background: url("E:/Mozilla/MOZILLA/logo/3.jpg");
-  background-position: center;
-  background-size: cover;
-	text-align: center;
-		height: 940px;
-		margin: 0 auto;
+   width: 100%;
+	 height:auto;	
+	  background-size: cover;
+	  background-attachment: fixed;
+	  overflow: hidden;
   }
   
   .positioning-container {
@@ -478,11 +418,11 @@ ul {
   
   .team-block-container {
 	background: url("E:/Mozilla/MOZILLA/logo/2.jpg");
-  background-position: center;
-  background-size: cover;
-	text-align: center;
-		height: 700px;
-		margin: 0 auto;
+   width: 100%;
+	 height:100%;	
+	  background-size: cover;
+	  background-attachment: fixed;
+	  overflow: hidden;
   }
   
   .team-block {
@@ -626,19 +566,18 @@ ul {
   
   /* #testimonials */
   .testimonials-container{
-  	background: url("E:/Mozilla/MOZILLA/logo/4.png");
-  background-position: center;
-  background-size: cover;
-	text-align: center;
-		height: 700px;
-		padding-top: 30px;
-		width: 100%;
-		margin: 0 auto;
+  	background: url("E:/Mozilla/MOZILLA/logo/4.png") no-repeat;
+  width: 100%;
+	 height:100%;	
+	  background-size: cover;
+	  background-attachment: fixed;
+	  overflow: hidden;
 
   }
   .customer-info {
 	height: 190px;
 	/*width: 940px;*/
+	margin-top: 30px;
 	width: 100%;
   }
   
